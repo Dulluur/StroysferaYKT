@@ -29,9 +29,9 @@ export default function Footer() {
             <h3 className="font-semibold mb-4">Услуги</h3>
             <ul className="space-y-2">
               <li>Механизированная стяжка</li>
-              <li>Полусухая стяжка</li>
               <li>Выравнивание полов</li>
               <li>Подготовка под покрытие</li>
+              <li>Торкрети́рование</li>
             </ul>
           </div>
   
