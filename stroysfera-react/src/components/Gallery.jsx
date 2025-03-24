@@ -10,11 +10,11 @@ export default function Gallery() {
 
   return (
     <section id="gallery" className="py-16 px-4 bg-gray-50">
-      <div className="container max-w-[1200px] mx-auto text-center">
+      <div className="container mx-auto text-center">
       <h2 className="text-4xl font-bold text-center mb-12">
           Наши <span className="text-blue-500">работы</span>
         </h2> 
-        <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-5 sm:grid-cols-2 gap-6">
           {images.map((img, idx) => (
             <div 
               key={idx} 
