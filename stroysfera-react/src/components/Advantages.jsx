@@ -15,7 +15,7 @@ export default function Advantages() {
           {items.map((item, idx) => (
             <div 
               key={idx} 
-              className="bg-white p-6 rounded-xl shadow-xl transition transform hover:-translate-y-2 hover:shadow-2xl cursor-pointer"
+              className="bg-white p-6 text-center rounded-xl shadow-xl transition transform hover:-translate-y-2 hover:shadow-2xl cursor-pointer"
             >
               <h3 className="text-2xl font-semibold mb-3">{item.title}</h3>
               <p className="text-gray-600">{item.text}</p>

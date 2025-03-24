@@ -1,10 +1,10 @@
 export default function Team() {
     const team = [
-      { name: "Фёдор Евгеньевич", role: "Генеральный директор", img: "/assets/images/team/1.jpg" },
-      { name: "Александр Иванович", role: "Главный технолог", img: "/assets/images/team/2.jpg" },
-      { name: "Дмитрий Кузнецов", role: "Старший мастер", img: "/assets/images/team/3.jpg" },
-      { name: "Михаил Федоров", role: "Менеджер проектов", img: "/assets/images/team/4.jpg" },
-      { name: "Василий Николаевич", role: "Менеджер проектов", img: "/assets/images/team/5.jpg" },
+      { name: "Фёдор ", role: "Генеральный директор", img: "/assets/images/team/1.jpg" },
+      { name: "Александр ", role: "Главный технолог", img: "/assets/images/team/2.jpg" },
+      { name: "Дмитрий ", role: "Старший мастер", img: "/assets/images/team/3.jpg" },
+      { name: "Михаил ", role: "Менеджер проектов", img: "/assets/images/team/4.jpg" },
+      { name: "Василий ", role: "Менеджер проектов", img: "/assets/images/team/5.jpg" },
     ];
   
     return (

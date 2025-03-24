@@ -11,15 +11,18 @@ import Comparison from './components/Comparison'
 import Team from './components/Team'
 import Header from './components/Header'
 
+import Torket from './components/Torket'
+
 function App() {
   return (
     <>
       <Navbar/>
       <Hero />
       <About />
-      <Team/>
+      {/* <Team/> */}
       <Advantages />
       <Services/>
+      <Torket/>
       <Comparison/>
       <Gallery />
       <Contact />
