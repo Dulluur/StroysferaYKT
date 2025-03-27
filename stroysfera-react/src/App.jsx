@@ -1,34 +1,46 @@
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Advantages from './components/Advantages'
-import Gallery from './components/Gallery'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-import Services from './components/Services'
-import Comparison from './components/Comparison'
-import Team from './components/Team'
-import Header from './components/Header'
-
-import Torket from './components/Torket'
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Advantages from "./components/Advantages";
+import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Services from "./components/Services";
+import Comparison from "./components/Comparison";
+import Torket from "./components/Torket";
+import Shukaturka from "./components/Shukaturka";
+// import Team from "./components/Team";
+// import Header from "./components/Header";
+import Steps from "./components/Steps"
+import FAQ from "./components/FAQ";
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 800, once: true });
+  }, []);
+
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <Hero />
       <About />
-      {/* <Team/> */}
+      <Steps/>
+      {/* <Team /> */}
       <Advantages />
-      <Services/>
-      <Torket/>
-      <Comparison/>
+      <Services />
+      <Torket />
+      <Shukaturka />
+      <Comparison />
       <Gallery />
+      <FAQ/>
       <Contact />
-      <Footer/>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

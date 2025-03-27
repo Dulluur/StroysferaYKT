@@ -3,3 +3,11 @@
 .hero-bg {
     background-image: url('/assets/images/Hero.jpeg');
   }
+li{
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
